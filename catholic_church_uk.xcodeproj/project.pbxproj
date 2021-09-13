@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B570A0326EFFCCF00564EEF /* catholic_church_ukApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */; };
+		6B570A0526EFFCCF00564EEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A0426EFFCCF00564EEF /* ContentView.swift */; };
+		6B570A0726EFFCD100564EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B570A0626EFFCD100564EEF /* Assets.xcassets */; };
+		6B570A0A26EFFCD100564EEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B570A0926EFFCD100564EEF /* Preview Assets.xcassets */; };
+		6B570A1526EFFCD100564EEF /* catholic_church_ukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A1426EFFCD100564EEF /* catholic_church_ukTests.swift */; };
+		6B570A2026EFFCD100564EEF /* catholic_church_ukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A1F26EFFCD100564EEF /* catholic_church_ukUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B570A1126EFFCD100564EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B5709F726EFFCCF00564EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5709FE26EFFCCF00564EEF;
+			remoteInfo = catholic_church_uk;
+		};
+		6B570A1C26EFFCD100564EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B5709F726EFFCCF00564EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5709FE26EFFCCF00564EEF;
+			remoteInfo = catholic_church_uk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B5709FF26EFFCCF00564EEF /* catholic_church_uk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catholic_church_uk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catholic_church_ukApp.swift; sourceTree = "<group>"; };
+		6B570A0426EFFCCF00564EEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B570A0626EFFCD100564EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B570A0926EFFCD100564EEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B570A0B26EFFCD100564EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B570A1026EFFCD100564EEF /* catholic_church_ukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catholic_church_ukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B570A1426EFFCD100564EEF /* catholic_church_ukTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catholic_church_ukTests.swift; sourceTree = "<group>"; };
+		6B570A1626EFFCD100564EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B570A1B26EFFCD100564EEF /* catholic_church_ukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catholic_church_ukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B570A1F26EFFCD100564EEF /* catholic_church_ukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catholic_church_ukUITests.swift; sourceTree = "<group>"; };
+		6B570A2126EFFCD100564EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5709FC26EFFCCF00564EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A0D26EFFCD100564EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A1826EFFCD100564EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5709F626EFFCCF00564EEF = {
+			isa = PBXGroup;
+			children = (
+				6B570A0126EFFCCF00564EEF /* catholic_church_uk */,
+				6B570A1326EFFCD100564EEF /* catholic_church_ukTests */,
+				6B570A1E26EFFCD100564EEF /* catholic_church_ukUITests */,
+				6B570A0026EFFCCF00564EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B570A0026EFFCCF00564EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5709FF26EFFCCF00564EEF /* catholic_church_uk.app */,
+				6B570A1026EFFCD100564EEF /* catholic_church_ukTests.xctest */,
+				6B570A1B26EFFCD100564EEF /* catholic_church_ukUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B570A0126EFFCCF00564EEF /* catholic_church_uk */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */,
+				6B570A0426EFFCCF00564EEF /* ContentView.swift */,
+				6B570A0626EFFCD100564EEF /* Assets.xcassets */,
+				6B570A0B26EFFCD100564EEF /* Info.plist */,
+				6B570A0826EFFCD100564EEF /* Preview Content */,
+			);
+			path = catholic_church_uk;
+			sourceTree = "<group>";
+		};
+		6B570A0826EFFCD100564EEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A0926EFFCD100564EEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B570A1326EFFCD100564EEF /* catholic_church_ukTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A1426EFFCD100564EEF /* catholic_church_ukTests.swift */,
+				6B570A1626EFFCD100564EEF /* Info.plist */,
+			);
+			path = catholic_church_ukTests;
+			sourceTree = "<group>";
+		};
+		6B570A1E26EFFCD100564EEF /* catholic_church_ukUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A1F26EFFCD100564EEF /* catholic_church_ukUITests.swift */,
+				6B570A2126EFFCD100564EEF /* Info.plist */,
+			);
+			path = catholic_church_ukUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5709FE26EFFCCF00564EEF /* catholic_church_uk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B570A2426EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_uk" */;
+			buildPhases = (
+				6B5709FB26EFFCCF00564EEF /* Sources */,
+				6B5709FC26EFFCCF00564EEF /* Frameworks */,
+				6B5709FD26EFFCCF00564EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = catholic_church_uk;
+			productName = catholic_church_uk;
+			productReference = 6B5709FF26EFFCCF00564EEF /* catholic_church_uk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B570A0F26EFFCD100564EEF /* catholic_church_ukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B570A2726EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_ukTests" */;
+			buildPhases = (
+				6B570A0C26EFFCD100564EEF /* Sources */,
+				6B570A0D26EFFCD100564EEF /* Frameworks */,
+				6B570A0E26EFFCD100564EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B570A1226EFFCD100564EEF /* PBXTargetDependency */,
+			);
+			name = catholic_church_ukTests;
+			productName = catholic_church_ukTests;
+			productReference = 6B570A1026EFFCD100564EEF /* catholic_church_ukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B570A1A26EFFCD100564EEF /* catholic_church_ukUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B570A2A26EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_ukUITests" */;
+			buildPhases = (
+				6B570A1726EFFCD100564EEF /* Sources */,
+				6B570A1826EFFCD100564EEF /* Frameworks */,
+				6B570A1926EFFCD100564EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B570A1D26EFFCD100564EEF /* PBXTargetDependency */,
+			);
+			name = catholic_church_ukUITests;
+			productName = catholic_church_ukUITests;
+			productReference = 6B570A1B26EFFCD100564EEF /* catholic_church_ukUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5709F726EFFCCF00564EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6B5709FE26EFFCCF00564EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6B570A0F26EFFCD100564EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6B5709FE26EFFCCF00564EEF;
+					};
+					6B570A1A26EFFCD100564EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6B5709FE26EFFCCF00564EEF;
+					};
+				};
+			};
+			buildConfigurationList = 6B5709FA26EFFCCF00564EEF /* Build configuration list for PBXProject "catholic_church_uk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5709F626EFFCCF00564EEF;
+			productRefGroup = 6B570A0026EFFCCF00564EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5709FE26EFFCCF00564EEF /* catholic_church_uk */,
+				6B570A0F26EFFCD100564EEF /* catholic_church_ukTests */,
+				6B570A1A26EFFCD100564EEF /* catholic_church_ukUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5709FD26EFFCCF00564EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B570A0A26EFFCD100564EEF /* Preview Assets.xcassets in Resources */,
+				6B570A0726EFFCD100564EEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A0E26EFFCD100564EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A1926EFFCD100564EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5709FB26EFFCCF00564EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B570A0526EFFCCF00564EEF /* ContentView.swift in Sources */,
+				6B570A0326EFFCCF00564EEF /* catholic_church_ukApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A0C26EFFCD100564EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B570A1526EFFCD100564EEF /* catholic_church_ukTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B570A1726EFFCD100564EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B570A2026EFFCD100564EEF /* catholic_church_ukUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B570A1226EFFCD100564EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5709FE26EFFCCF00564EEF /* catholic_church_uk */;
+			targetProxy = 6B570A1126EFFCD100564EEF /* PBXContainerItemProxy */;
+		};
+		6B570A1D26EFFCD100564EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5709FE26EFFCCF00564EEF /* catholic_church_uk */;
+			targetProxy = 6B570A1C26EFFCD100564EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B570A2226EFFCD100564EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B570A2326EFFCD100564EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B570A2526EFFCD100564EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"catholic_church_uk/Preview Content\"";
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = catholic_church_uk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-uk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B570A2626EFFCD100564EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"catholic_church_uk/Preview Content\"";
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = catholic_church_uk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-uk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B570A2826EFFCD100564EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				INFOPLIST_FILE = catholic_church_ukTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-ukTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catholic_church_uk.app/catholic_church_uk";
+			};
+			name = Debug;
+		};
+		6B570A2926EFFCD100564EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				INFOPLIST_FILE = catholic_church_ukTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-ukTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catholic_church_uk.app/catholic_church_uk";
+			};
+			name = Release;
+		};
+		6B570A2B26EFFCD100564EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				INFOPLIST_FILE = catholic_church_ukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-ukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = catholic_church_uk;
+			};
+			name = Debug;
+		};
+		6B570A2C26EFFCD100564EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6623R3GP5;
+				INFOPLIST_FILE = catholic_church_ukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "flutterly.co.uk.catholic-church-ukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = catholic_church_uk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5709FA26EFFCCF00564EEF /* Build configuration list for PBXProject "catholic_church_uk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B570A2226EFFCD100564EEF /* Debug */,
+				6B570A2326EFFCD100564EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B570A2426EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_uk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B570A2526EFFCD100564EEF /* Debug */,
+				6B570A2626EFFCD100564EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B570A2726EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_ukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B570A2826EFFCD100564EEF /* Debug */,
+				6B570A2926EFFCD100564EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B570A2A26EFFCD100564EEF /* Build configuration list for PBXNativeTarget "catholic_church_ukUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B570A2B26EFFCD100564EEF /* Debug */,
+				6B570A2C26EFFCD100564EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5709F726EFFCCF00564EEF /* Project object */;
+}
