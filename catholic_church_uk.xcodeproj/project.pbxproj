@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4A217A26F1421000D60286 /* ParishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A217926F1421000D60286 /* ParishDetailView.swift */; };
+		6B4A217D26F15D7900D60286 /* ArchdioceseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A217C26F15D7900D60286 /* ArchdioceseModel.swift */; };
+		6B4A217F26F15DAD00D60286 /* ParishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A217E26F15DAD00D60286 /* ParishModel.swift */; };
+		6B4A218126F15ED200D60286 /* FacilityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A218026F15ED200D60286 /* FacilityModel.swift */; };
+		6B4A218326F15EF500D60286 /* ConfessionTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A218226F15EF500D60286 /* ConfessionTimeModel.swift */; };
+		6B4A218526F166FF00D60286 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A218426F166FF00D60286 /* MapView.swift */; };
+		6B4A218726F16C9A00D60286 /* ParishMapIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A218626F16C9A00D60286 /* ParishMapIconModel.swift */; };
 		6B570A0326EFFCCF00564EEF /* catholic_church_ukApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */; };
 		6B570A0526EFFCCF00564EEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A0426EFFCCF00564EEF /* ContentView.swift */; };
 		6B570A0726EFFCD100564EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B570A0626EFFCD100564EEF /* Assets.xcassets */; };
 		6B570A0A26EFFCD100564EEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B570A0926EFFCD100564EEF /* Preview Assets.xcassets */; };
 		6B570A1526EFFCD100564EEF /* catholic_church_ukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A1426EFFCD100564EEF /* catholic_church_ukTests.swift */; };
 		6B570A2026EFFCD100564EEF /* catholic_church_ukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A1F26EFFCD100564EEF /* catholic_church_ukUITests.swift */; };
+		6B570A2E26EFFFF700564EEF /* ArchDioceseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A2D26EFFFF700564EEF /* ArchDioceseList.swift */; };
+		6B570A3126F006AF00564EEF /* ArchDioceseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A3026F006AF00564EEF /* ArchDioceseDetail.swift */; };
+		6B570A3426F0E02200564EEF /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A3326F0E02200564EEF /* CircleImageView.swift */; };
+		6B570A3726F0E09300564EEF /* NetworkImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B570A3626F0E09300564EEF /* NetworkImageLoader.swift */; };
+		6BE8EB3D26F2B06C0038A994 /* DioceseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8EB3C26F2B06C0038A994 /* DioceseModel.swift */; };
+		6BE8EB4126F2BCA70038A994 /* ParishDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8EB4026F2BCA70038A994 /* ParishDirectory.swift */; };
+		6BE8EB4326F2BEF90038A994 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8EB4226F2BEF90038A994 /* MainView.swift */; };
+		6BE8EB4526F2D1EA0038A994 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE8EB4426F2D1EA0038A994 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B4A217926F1421000D60286 /* ParishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParishDetailView.swift; sourceTree = "<group>"; };
+		6B4A217C26F15D7900D60286 /* ArchdioceseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchdioceseModel.swift; sourceTree = "<group>"; };
+		6B4A217E26F15DAD00D60286 /* ParishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParishModel.swift; sourceTree = "<group>"; };
+		6B4A218026F15ED200D60286 /* FacilityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityModel.swift; sourceTree = "<group>"; };
+		6B4A218226F15EF500D60286 /* ConfessionTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfessionTimeModel.swift; sourceTree = "<group>"; };
+		6B4A218426F166FF00D60286 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6B4A218626F16C9A00D60286 /* ParishMapIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParishMapIconModel.swift; sourceTree = "<group>"; };
 		6B5709FF26EFFCCF00564EEF /* catholic_church_uk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catholic_church_uk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catholic_church_ukApp.swift; sourceTree = "<group>"; };
 		6B570A0426EFFCCF00564EEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +67,14 @@
 		6B570A1B26EFFCD100564EEF /* catholic_church_ukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catholic_church_ukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B570A1F26EFFCD100564EEF /* catholic_church_ukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catholic_church_ukUITests.swift; sourceTree = "<group>"; };
 		6B570A2126EFFCD100564EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B570A2D26EFFFF700564EEF /* ArchDioceseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDioceseList.swift; sourceTree = "<group>"; };
+		6B570A3026F006AF00564EEF /* ArchDioceseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDioceseDetail.swift; sourceTree = "<group>"; };
+		6B570A3326F0E02200564EEF /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		6B570A3626F0E09300564EEF /* NetworkImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageLoader.swift; sourceTree = "<group>"; };
+		6BE8EB3C26F2B06C0038A994 /* DioceseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DioceseModel.swift; sourceTree = "<group>"; };
+		6BE8EB4026F2BCA70038A994 /* ParishDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParishDirectory.swift; sourceTree = "<group>"; };
+		6BE8EB4226F2BEF90038A994 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6BE8EB4426F2D1EA0038A994 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B4A217B26F15D4500D60286 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A217C26F15D7900D60286 /* ArchdioceseModel.swift */,
+				6B4A217E26F15DAD00D60286 /* ParishModel.swift */,
+				6B4A218026F15ED200D60286 /* FacilityModel.swift */,
+				6B4A218226F15EF500D60286 /* ConfessionTimeModel.swift */,
+				6B4A218626F16C9A00D60286 /* ParishMapIconModel.swift */,
+				6BE8EB3C26F2B06C0038A994 /* DioceseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6B5709F626EFFCCF00564EEF = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +138,15 @@
 		6B570A0126EFFCCF00564EEF /* catholic_church_uk */ = {
 			isa = PBXGroup;
 			children = (
+				6B4A217B26F15D4500D60286 /* Models */,
+				6B570A3526F0E07200564EEF /* Functions */,
+				6B570A2F26F0000700564EEF /* Resources */,
 				6B570A0226EFFCCF00564EEF /* catholic_church_ukApp.swift */,
-				6B570A0426EFFCCF00564EEF /* ContentView.swift */,
+				6B570A3226F0B2F000564EEF /* Views */,
 				6B570A0626EFFCD100564EEF /* Assets.xcassets */,
 				6B570A0B26EFFCD100564EEF /* Info.plist */,
 				6B570A0826EFFCD100564EEF /* Preview Content */,
+				6BE8EB4426F2D1EA0038A994 /* Launch Screen.storyboard */,
 			);
 			path = catholic_church_uk;
 			sourceTree = "<group>";
@@ -128,6 +175,36 @@
 				6B570A2126EFFCD100564EEF /* Info.plist */,
 			);
 			path = catholic_church_ukUITests;
+			sourceTree = "<group>";
+		};
+		6B570A2F26F0000700564EEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A2D26EFFFF700564EEF /* ArchDioceseList.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B570A3226F0B2F000564EEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A0426EFFCCF00564EEF /* ContentView.swift */,
+				6B570A3026F006AF00564EEF /* ArchDioceseDetail.swift */,
+				6B570A3326F0E02200564EEF /* CircleImageView.swift */,
+				6B4A217926F1421000D60286 /* ParishDetailView.swift */,
+				6B4A218426F166FF00D60286 /* MapView.swift */,
+				6BE8EB4026F2BCA70038A994 /* ParishDirectory.swift */,
+				6BE8EB4226F2BEF90038A994 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B570A3526F0E07200564EEF /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				6B570A3626F0E09300564EEF /* NetworkImageLoader.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE8EB4526F2D1EA0038A994 /* Launch Screen.storyboard in Resources */,
 				6B570A0A26EFFCD100564EEF /* Preview Assets.xcassets in Resources */,
 				6B570A0726EFFCD100564EEF /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +337,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4A217F26F15DAD00D60286 /* ParishModel.swift in Sources */,
+				6B4A218526F166FF00D60286 /* MapView.swift in Sources */,
+				6BE8EB4126F2BCA70038A994 /* ParishDirectory.swift in Sources */,
 				6B570A0526EFFCCF00564EEF /* ContentView.swift in Sources */,
+				6B570A3726F0E09300564EEF /* NetworkImageLoader.swift in Sources */,
+				6B4A218326F15EF500D60286 /* ConfessionTimeModel.swift in Sources */,
 				6B570A0326EFFCCF00564EEF /* catholic_church_ukApp.swift in Sources */,
+				6B570A2E26EFFFF700564EEF /* ArchDioceseList.swift in Sources */,
+				6B4A217D26F15D7900D60286 /* ArchdioceseModel.swift in Sources */,
+				6BE8EB4326F2BEF90038A994 /* MainView.swift in Sources */,
+				6B4A218126F15ED200D60286 /* FacilityModel.swift in Sources */,
+				6B4A217A26F1421000D60286 /* ParishDetailView.swift in Sources */,
+				6BE8EB3D26F2B06C0038A994 /* DioceseModel.swift in Sources */,
+				6B4A218726F16C9A00D60286 /* ParishMapIconModel.swift in Sources */,
+				6B570A3426F0E02200564EEF /* CircleImageView.swift in Sources */,
+				6B570A3126F006AF00564EEF /* ArchDioceseDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
